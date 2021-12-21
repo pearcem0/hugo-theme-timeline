@@ -4,7 +4,7 @@ $light-primary: #C5CAE9;
 $text: #FFFFFF;
 $primary-text: #212121;
 $secondary-text: #757575;
-$accent: #FF4081;
+$accent: #FF00FF;
 
 
 .hero-table { 
@@ -48,6 +48,7 @@ section {
 			.date {
 				right: auto;
 				left: 0;
+				background: #078007bf;
 			}
 
 			&::after {
@@ -154,6 +155,7 @@ blockquote {
 	position: absolute;
 	top: 0;
 	right: 0;
+	background: #078007bf;
 }
 
 @media screen and (max-width: 768px) {
